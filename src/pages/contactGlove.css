@@ -1,0 +1,14 @@
+.contactGlove__container {
+    position: relative;
+    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.contactGlove__container-form {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}

@@ -1,0 +1,88 @@
+/* ------About------ */
+
+.about {
+    background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1em;
+    justify-content: space-between;
+    overflow: visible;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.about p:hover {
+    /* color: rgb(68, 66, 66); */
+    background-image: linear-gradient(60deg, #262624, #636063);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.about__header {
+    background-image: linear-gradient(60deg, #888488, #262624);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    
+}
+
+.about__header:hover {
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.about-text {
+    background-image: linear-gradient(60deg, #636063, #262624);
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.icons {
+    display: grid;
+}
+
+.fontawesome-icons i {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    justify-content: space-between;
+}
+  
+.react-icons {
+    margin: 2rem 1rem 1rem 1rem;
+}
+  
+.headshot {
+    width: 20rem;
+    transition: scale(1);
+    transition: transform 0.5s ease;
+    border-radius: 150px;
+    /* box-shadow: 5px 5px #888888; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    align-items: center;
+}
+  
+.headshot:hover {
+    transition: scale(1.1);
+}
+  
+@media screen and (max-width: 600px) {
+    .icons {
+        display: grid;
+        grid-template-rows: 200px 200px 200px;
+        overflow-x: scroll;
+    }
+
+    .icons-wrap {
+        display: grid;
+        grid-template-rows: 2rem 2rem 2rem;
+    }
+}
